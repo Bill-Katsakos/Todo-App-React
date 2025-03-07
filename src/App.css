@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: url('./assets/fonts/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --background: #abd1c6;
+    --primary: #fffffe;
+}
+
+* {
+    font-family: 'PT Sans', sans-serif !important;
+    box-sizing: border-box !important;
+    font-size: 1.012em;
+}
+
+
+body {
+    background-color: #004643 !important;
+}
+
+.listBody {
+    max-height: 89vh;
+    overflow-y: scroll;
+  }  
+
+.todo-list {
+    background-color: var(--background) !important;
+}
+
+.todo-tasks {
+    background-color: var(--primary) !important;
+}
+
+#input {
+    border-radius: 8px !important; 
+    padding: 6px 15px; 
+    background-color: var(--primary) !important;
+}
+
+.form-control:focus {
+    border: 1px rgba(0, 0, 0, 0) solid !important;
+    box-shadow: inset 0 0 5px gray !important; 
+}
+
+.strikeThrough {
+    text-decoration: line-through;
+    text-decoration-thickness: 0.1em; 
+    text-decoration-color: rgb(0, 0, 0); 
+}
+
+.borderTaskRight {
+    border-right: 1px solid #00000029;
+}
+
+.button-task-1 {
+    background-color: var(--primary) !important;
+    border: var(--primary) !important;
+}
+
+.button-task-2 {
+    background-color: var(--primary) !important;
+    border: var(--primary) !important;
+}
+
+.button-task-3 {
+    background-color: var(--primary) !important;
+    border: var(--primary) !important;
+}
+
+.button-task-4 {
+    background-color: var(--primary) !important;
+    border: var(--primary) !important;
+}
+
+.button-input-1 {
+    background-color: #4c8c7d !important;
+    border: #4c8c7d !important;
+}
+
+.button-input-2 {
+    background-color: #6c9f72 !important;
+    border: #6c9f72 !important;
+}
+
+.button-input-3 {
+    background-color: #b49c60 !important;
+    border: #b49c60 !important;
+}
+
+.button-input-4 {
+    background-color: #f9bc60 !important;
+    border: #f9bc60 !important;
+}
+
+.button-label {
+    display: none;
+}
+
+@media (max-width: 992px) and (hover: none) and (pointer: coarse) {
+    .button-label {
+        display: inline;
+    }
+}
+/* 🦖 */
