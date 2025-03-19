@@ -28,6 +28,10 @@ npm install
 npm run dev
 ```
 
+## Deployment  
+You can test the live version of Todo-App-React here:  
+🔗 [Todo-App-React Live Demo](https://todo-react-katsakos.netlify.app/)
+
 ## Contribution
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
 
