@@ -32,7 +32,8 @@ npm run dev
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
 
 ## License
-This project is open-source under the **Creative Commons Attribution License**. If you use or modify this project, you must provide appropriate credit to the original author.
+This project is open-source under the **MIT License**.  
+See the [LICENSE](./LICENSE) file for more details.
 
 ## Acknowledgments
 This project was developed as part of the **Social Hackers Academy Bootcamp**.
